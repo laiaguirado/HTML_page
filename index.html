@@ -41,14 +41,14 @@
     </div>
     <div class="searcher">
       <form action="/addtask" method="get">
-        <div class="Ubicació"><label>Ubicació <input type="text" id="place" placeholder="A on viatjes?" /></label></div>
+        <div class="Ubicació"><label>Ubicació<input type="text" id="place" placeholder="A on viatjes?" /></label></div>
         <div class="Arribada"><label>Arribada<input type="text" onfocus="(this.type='date')" onblur="(this.type='text')"
               id="start-date" placeholder="Afegeix les dates" /></label>
         </div>
         <div class="Sortida"><label>Sortida<input type="text" onfocus="(this.type='date')" onblur="(this.type='text')"
               id="finish-date" placeholder="Afegeix les dates" /></label>
         </div>
-        <div class="Hostes"><label>Hostes <input type="number" pattern="^[1-16]" min="1" id="people"
+        <div class="Hostes"><label>Hostes<input type="number" min="1" max="16" id="people"
               placeholder="Quants sou?" /></label></div>
         <a href="index.html"><img src="images/search.svg" alt="searcher-logo" /></a>
       </form>
@@ -197,7 +197,7 @@
           <div class="logo-translate">
             <a href="https://translate.google.es/?hl=es">
               <img src="images/logo-translate.svg" alt="traductor" />
-              <p class="underline">Català</p>
+              <p class="underline">Català (ES)</p>
             </a>
           </div>
           <div class="euros">
